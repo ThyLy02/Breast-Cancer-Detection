@@ -1,7 +1,8 @@
 from src.model import BreastCancermodel
-from src.utils import plot
 
 import pandas as pd
+
+
 
 #Load data
 X_train = pd.read_csv("data/xtrain.csv", header=None)
@@ -15,11 +16,10 @@ classifier.compile(optimizer = 'rmsprop', loss = 'binary_crossentropy', metrics 
 #train
 history=classifier.fit(X_train, Y_train, batch_size = 1, epochs = 20 )
 
-'''
-#Validate (predict on test set)
-T = 0.5 #classification threshold
-Y_pred = classifier.predict(X_test)
-Y_pred = [ 1 if y>=0.5   else 0 for y in Y_pred ]
-'''
-plot(history)
+#summary
+classifier = BreastCancermodel().summary_model()
+
+
+
+
 

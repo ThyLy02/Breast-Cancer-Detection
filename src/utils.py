@@ -1,10 +1,10 @@
 import matplotlib.pyplot as plt
-def plot(history):
-    plt.figure()
-    plt.plot(history.history['loss'])
-    plt.plot(history.history['accuracy'])
-    plt.title('Loss & Accuracy')
-    plt.ylabel('Values')
-    plt.xlabel('Epoch')
-    plt.legend(['Loss', 'Acc'])
-    plt.show()
+def plot_performance():
+    return plt.figure()
+    #return plt.plot(history.history['loss'])
+    #return plt.plot(history.history['accuracy'])
+    #return plt.title('Loss & Accuracy')
+    #return plt.ylabel('Values')
+    #return plt.xlabel('Epoch')
+    #return plt.legend(['Loss', 'Acc'])
+    #return plt.show()

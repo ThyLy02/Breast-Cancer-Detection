@@ -13,6 +13,8 @@ class BreastCancermodel:
 
     def Loadmodel(self):
         return self.classifier
+    def summary_model(self):
+        return self.classifier.summary()
 
 
 # Having 4 layers
