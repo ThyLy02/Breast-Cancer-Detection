@@ -2,7 +2,7 @@
 from keras.models import Sequential
 from keras.layers import Dense
 
-class BreastCancermodel:
+class BreastCancerModel:
     def __init__(self):
 
         self.classifier = Sequential() # Initialising the ANN creates a blank model
@@ -11,7 +11,7 @@ class BreastCancermodel:
         self.classifier.add(Dense(units = 6, activation = 'relu'))
         self.classifier.add(Dense(units = 1, activation = 'sigmoid')) # To break the result, we also classify 2 classes ; output layer
 
-    def Loadmodel(self):
+    def load_model(self):
         return self.classifier
     def summary_model(self):
         return self.classifier.summary()
