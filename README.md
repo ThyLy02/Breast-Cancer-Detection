@@ -26,11 +26,14 @@ pip install -r requirements.txt
 **Download and information of dataset**
 
 Go to folder data, there are 4 files (xtest, ytest, xtrain, ytrain).
-The Breast Cancer Wisconsin Dataset have 569 samples, 31 index.
-Sorting it into training and test sets with the 'input' values to the Neural Network as 'X' values
-The expected 'output' (a 0 if benign and a 1 if malignant) as the 'Y' values.
-There are 2 classes, 4 layers.
 
+The Breast Cancer Wisconsin Dataset have 569 samples, 31 index.
+
+Sorting it into training and test sets with the 'input' values to the Neural Network as 'X' values
+
+The expected 'output' (a 0 if benign and a 1 if malignant) as the 'Y' values.
+
+There are 2 classes, 4 layers.
 
 ## Usage
 
