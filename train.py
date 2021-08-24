@@ -1,8 +1,7 @@
-from src.model import BreastCancerModel
+from src.models import BreastCancerModel
 from src.utils import plot_model
 
 import pandas as pd
-
 
 
 # load data
