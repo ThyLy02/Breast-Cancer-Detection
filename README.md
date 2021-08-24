@@ -1,14 +1,14 @@
-﻿Breast Cancer Detection project
+﻿# Breast Cancer Detection project
  
 
-[Introduction]()
+## Introduction
 
 Breast Cancer Dectection by using Deep Neural Network is an Artificial Intelligent project. 
 It is a small project in class for practicing some kind of models in Machine Learning.
 My model is still simple, but I will reorganize it better in next time.
 
 
-[Installation]()
+## Installation
 
 **Create environment**
 
@@ -32,7 +32,7 @@ The expected 'output' (a 0 if benign and a 1 if malignant) as the 'Y' values.
 There are 2 classes, 4 layers.
 
 
-[Usage]()
+## Usage
 
 **How to run**
 
